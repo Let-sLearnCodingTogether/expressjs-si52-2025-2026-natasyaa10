@@ -5,8 +5,14 @@ const web = express.Router()
 web.get('/',(req,res)=> {
     res.render('index')
 })
+
 web.get('/:username',(req,res)=> {
-    res.render('public-profile')
+    const username= req.params.username
+    res.render('public-profile', {
+        title : username,
+        username : username, 
+        bio : "life is a chance"
+    })
 })
 
 export default web
