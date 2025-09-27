@@ -3,7 +3,7 @@ body {
     background: linear-gradient(-45deg, red, pink, hotpink, salmon);
     background-size: 400% 400%;
     animation: gradientBg 15s ease infinite;
-    color: gray;
+    color: white;
 
 }
 
@@ -42,16 +42,31 @@ body {
 }
 
 .btn-glass{
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 2555, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
+    color: white;
+    font-weight: 700;
 }
 
 .bts-glass-hover{
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 2555, 255, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
     color: white;
     transform: translateY(-3px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
 }
+
+.social.icons a {
+    color:white;
+    font-size: 1.8rem;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+footer {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+    
